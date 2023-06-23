@@ -7,7 +7,8 @@ Caution: DO NOT use the sort array method
 */
 
 function sortArray(someArray) {
-  for (let i = 0; i < someArray.length; i++) {
+  const len = someArray.length;
+  for (let i = 0; i < len; i++) {
     if (someArray[i] % 2 == 0) {
       object.evens.push(someArray[i]);
     } else if (someArray[i] % 2 == 1) {
@@ -18,10 +19,11 @@ function sortArray(someArray) {
   }
 }
 
-//objects in javascript
+/* objects in javascript
 
 const object = {
   evens: [],
   odds: [],
   chars: [],
 };
+*/

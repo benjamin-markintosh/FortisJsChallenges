@@ -9,7 +9,8 @@ A string is palindromic if it reads the same forward and backward.
 */
 
 function firstPalindrome(words) {
-  for (let i = 0; i < words.length; i++) {
+  const lens = words.length;
+  for (let i = 0; i < lens; i++) {
     if (isPalindrome(words[i])) {
       return words[i];
     }
