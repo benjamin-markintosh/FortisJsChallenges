@@ -14,5 +14,4 @@ function checkDublicates(nums) {
   }
 
   return false;
-  marvin
 }
